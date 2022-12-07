@@ -1,0 +1,30 @@
+/* Extra small: 0px (320px) - 480px */
+.hero-content__price{
+    width:100%;
+}
+.prices{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.hero-content__discount{
+    top:-20px;
+    left:48%
+}
+@media (max-width: 480px){
+    .mr-a {
+        margin: 0 auto;
+        display: flex;
+        align-items: baseline;
+    }
+    .timer-count {
+       font-size: 50px;
+        color: #fff;
+        width: 80px;
+        margin: 0;
+        text-align: center;
+    }
+    .prices__new {
+    font-size:50px;
+    }
+}
